@@ -89,9 +89,9 @@
 		EC4AAE14FB8839F94591F51A /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD7A497088654ED7D5BE8C5 /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		ED3FCB3D078BD64A1E63F0FD /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D3E9A2E7462B508AFC90A5 /* DDTTYLogger.h */; };
 		F1B6F87F20999E7300BC78F2 /* XAspect.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B6F87D20999E7300BC78F2 /* XAspect.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1B6F88320999E8500BC78F2 /* XACExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = DA9F6120151B335EDC1276F3 /* XACExtensions.c */; };
-		F1B6F88420999E8500BC78F2 /* XACrystallization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E85E57D40FF475D3F55FD /* XACrystallization.cpp */; };
-		F1B6F88520999E8500BC78F2 /* XAWeaveHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16E49CCD0D8591095498B4D3 /* XAWeaveHandler.cpp */; };
+		F1B6F88320999E8500BC78F2 /* XACExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = DA9F6120151B335EDC1276F3 /* XACExtensions.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F1B6F88420999E8500BC78F2 /* XACrystallization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E85E57D40FF475D3F55FD /* XACrystallization.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F1B6F88520999E8500BC78F2 /* XAWeaveHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16E49CCD0D8591095498B4D3 /* XAWeaveHandler.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F1B6F88720999E8E00BC78F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B6F88620999E8E00BC78F2 /* Foundation.framework */; };
 		F1B6F88820999E9B00BC78F2 /* XACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFBE30B2ED15F7CB1589A40 /* XACExtensions.h */; };
 		F1B6F88920999E9B00BC78F2 /* XACrystallization.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BB0AE6D8BFD837E7830D25 /* XACrystallization.h */; };
