@@ -93,12 +93,12 @@
 		F1B6F88420999E8500BC78F2 /* XACrystallization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E85E57D40FF475D3F55FD /* XACrystallization.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F1B6F88520999E8500BC78F2 /* XAWeaveHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16E49CCD0D8591095498B4D3 /* XAWeaveHandler.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F1B6F88720999E8E00BC78F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B6F88620999E8E00BC78F2 /* Foundation.framework */; };
-		F1B6F88820999E9B00BC78F2 /* XACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFBE30B2ED15F7CB1589A40 /* XACExtensions.h */; };
-		F1B6F88920999E9B00BC78F2 /* XACrystallization.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BB0AE6D8BFD837E7830D25 /* XACrystallization.h */; };
+		F1B6F88820999E9B00BC78F2 /* XACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFBE30B2ED15F7CB1589A40 /* XACExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1B6F88920999E9B00BC78F2 /* XACrystallization.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BB0AE6D8BFD837E7830D25 /* XACrystallization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1B6F88A20999E9B00BC78F2 /* XAWeaveHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F9F78DB6417A5197F84C706 /* XAWeaveHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1B6F88B20999E9B00BC78F2 /* XADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B33DA0CC873942666A002EB /* XADebugMacros.h */; };
-		F1B6F88C20999E9B00BC78F2 /* XAExtObjcMetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F46409C40A9210661B0F9C /* XAExtObjcMetamacros.h */; };
-		F1B6F88D20999E9B00BC78F2 /* XAFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 241332425AA248BCD34F1BF1 /* XAFoundation.h */; };
+		F1B6F88B20999E9B00BC78F2 /* XADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B33DA0CC873942666A002EB /* XADebugMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1B6F88C20999E9B00BC78F2 /* XAExtObjcMetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F46409C40A9210661B0F9C /* XAExtObjcMetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1B6F88D20999E9B00BC78F2 /* XAFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 241332425AA248BCD34F1BF1 /* XAFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1B6F88E20999E9B00BC78F2 /* XAObjcMetaprogramming.h in Headers */ = {isa = PBXBuildFile; fileRef = 53638377E67D59303F0DA15B /* XAObjcMetaprogramming.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F201A21064FAC99008C7E877 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A3591CFB6ECB014AF7229319 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F721A504CFFBB0C0A6B97AA9 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = D7267A819D879B2B25000F7A /* DDASLLogCapture.h */; };
@@ -591,12 +591,12 @@
 			files = (
 				F1B6F87F20999E7300BC78F2 /* XAspect.h in Headers */,
 				F1B6F88E20999E9B00BC78F2 /* XAObjcMetaprogramming.h in Headers */,
-				F1B6F88A20999E9B00BC78F2 /* XAWeaveHandler.h in Headers */,
 				F1B6F88820999E9B00BC78F2 /* XACExtensions.h in Headers */,
 				F1B6F88920999E9B00BC78F2 /* XACrystallization.h in Headers */,
 				F1B6F88B20999E9B00BC78F2 /* XADebugMacros.h in Headers */,
 				F1B6F88C20999E9B00BC78F2 /* XAExtObjcMetamacros.h in Headers */,
 				F1B6F88D20999E9B00BC78F2 /* XAFoundation.h in Headers */,
+				F1B6F88A20999E9B00BC78F2 /* XAWeaveHandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
