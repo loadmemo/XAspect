@@ -22,6 +22,12 @@ XAspect is distributed via [CocoaPods]. Add this line in your **Podfile** and th
 
 You can also simply include XAspect in your project manually. Just add all of the source files and folders in the `XAspect/` directory to your project.
 
+#### (3) Via Carthage
+Only version 1.0.4
+```
+github 'loadmemo/XAspect' == 1.0.4
+```
+
 At a Glance
 -----------
 
